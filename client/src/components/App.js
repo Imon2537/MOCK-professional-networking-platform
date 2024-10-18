@@ -1,8 +1,13 @@
-import React, { useEffect, useState } from "react";
-import { Switch, Route } from "react-router-dom";
+import React from 'react';
+import OrganizationPage from './components/OrganizationPage.js';
 
 function App() {
-  return <h1>Project Client</h1>;
+  return (
+    <div className="App">
+      <OrganizationPage />
+    </div>     
+  );
 }
 
 export default App;
+

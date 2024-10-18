@@ -1,0 +1,126 @@
+/* General Layout */
+.organization-page {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 25%;
+    background-color: #f3f3f3;
+    padding: 10px;
+  }
+  
+  .main-content {
+    width: 75%;
+    padding: 20px;
+  }
+  
+  .profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .profile-name, .profile-email, .profile-website {
+    margin: 5px 0;
+    font-weight: bold;
+  }
+  
+  .logout-btn, .delete-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+  }
+  
+  .jobs-completed {
+    margin-top: 20px;
+  }
+  
+  .jobs-completed h3 {
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .completed-job {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #e8f5e9;
+  }
+  
+  .cert-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  /* Main Content Area */
+  .jobs-created, .new-job-applications {
+    margin-bottom: 30px;
+  }
+  
+  .job-card, .application-card {
+    background-color: #e8f5e9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .job-title {
+    font-weight: bold;
+  }
+  
+  .mark-completed-btn, .delete-btn {
+    margin-right: 10px;
+    padding: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+  }
+  
+  .add-job-btn {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .approve-btn {
+    background-color: #4CAF50;
+    padding: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .reject-btn {
+    background-color: #f44336;
+    padding: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
